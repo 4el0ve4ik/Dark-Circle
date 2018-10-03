@@ -87,6 +87,10 @@ body {
     color: #82a1ad;
 }
 
+    .below_body .time {
+    color: #666666;
+}
+    
 .above_threadlist .threadpagenav .threadpagestats {
     color: rgb(173, 173, 173);
 }
@@ -246,4 +250,147 @@ body {
 .thread_info {
     color: #777777;
 }
+    
+    .blockhead {
+    color: #adadad;
+    background: #181a19 url(images/buttons/newbtn_middle.png) repeat-x;
+    border: 1px solid #a4b1b9;
+}
+    .blocksubhead {
+    color: #e9e9e9;
+    background: #333333 none repeat-x;
+    border-top: 1px solid #cecece;
+}
+    .formcontrols .blockrow {
+    background: #333333 none repeat-x 
+}
+    
+    .blockbody {
+    background: rgb(51, 51, 51) none no-repeat;
+}
+    
+    .formcontrols {
+    border-right: 1px solid #aaaaab;
+    border-left: 1px solid #a2b1bb;
+    border-bottom: 1px solid #b7bbbd;
+}
+    
+    #forumrules {
+    background-color: rgb(51, 51, 51);
+    border: solid 1px #dedede;
+}
+    
+    .blockfoot, .blocksubfoot {
+    background: #333333 none;
+}
+
+    .actionbuttons .group .button {
+    border: 1px solid #a8a8a8;
+    color: #c8c8c8;
+    background: #181a19 url(images/gradients/generic_button.png) repeat-x top left;
+}
+    .blocksubhead {
+    color: #adadad;
+    background: #333333 none repeat-x;
+    border-top: 1px solid #cecece;
+}
+    
+    .toplinks .nonotifications .popupbody a {
+    color: #adadad;
+    background: #333333 none;
+}
+    #sidebar_container .blocksubhead {
+    color: #adadad;
+    border-color: #181a19;
+}
+    .member_content #sidebar_container div.block {
+    background-color: #181a19;
+}
+    dl.stats dt, #sidebar_container dl.stats, #sidebar_container .blockbody.userprof_content, #sidebar_container .userprof_content .time, .userprof_content .time {
+    color: rgb(173, 173, 173);
+    background-color: #333333;
+}
+    #sidebar_container .userprof_content .blockrow {
+    color: rgb(173, 173, 173);
+    background-color: #333333;
+    border-color: #333333;
+}
+ 
+    #sidebar_container.member_summary {
+    color: #424242;
+    background-color: #181a19;
+    border-color: #c1c1c1;
+}
+    
+    #profile_tabs a, #profile_tabs a:hover {
+    background-color: #33333300;
+}
+    
+    .newactivity a, .newactivity > span, .moreactivity a, .moreactivity span {
+    color: #a1adad;
+}
+    
+    .userprof_headers_border {
+    border-color: #aab1b5;
+}
+    
+    .userprof_headers {
+    color: #3e3e3e;
+    background-color: #333333;
+}
+    
+    #activity_tab_container > div {
+    background-color: #181a19;
+}
+    
+    .memberprofiletabunder {
+    background-color: #181a19;
+}
+    
+    .userprof_button {
+    color: #ccc;
+    background-color: #181a19;
+    border-color: #a8a8a8;
+}
+    
+    .cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_ok, .cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_cancel, .textcontrols a, a.textcontrol {
+    border: 1px solid #a8a8a8;
+    color: #e9e9e9;
+    background: #181a19 url(images/gradients/generic_button.png) repeat-x top left;
+}
+    
+    .activitystream_block dd, dd.userprof_moduleinactive {
+    color: #a1ad92;
+    background-color: #333333;
+    border-color: #737373;
+}
+    .activitystream_block dd.selected, dd.userprof_module {
+    color: #ffffff;
+    background-color: #181a19;
+    border-color: #5a7f97;
+}
+    #usercp_nav li a.usercp_folder-left {
+    background: #333333 url(images/cms/sections.png) no-repeat 10px 4px;
+}
+    
+    #usercp_nav .blockbody {
+    border: 1px solid #5a7f97;
+    background: #333333 none;
+}
+    #usercp_nav .blockrow {
+    background: #333333 none;
+}
+    
+    #usercp_nav .blocksubhead {
+    color: #adadad;
+    background: #181a19 none repeat-x;
+}
+    
+    #searchtypeswitcher li.selected a {
+    background-color: #333333;
+}
+    
+    #searchtypeswitcher li a {
+            background-color: #333333;
+    }
 }
