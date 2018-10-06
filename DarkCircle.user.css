@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Circle
 @namespace      https://github.com/4el0ve4ik/Dark-Circle
-@version        1.2.5
+@version        1.2.6
 @description    Dark style for forum.wowcircle.com
 @author         4310V341K aka FYPSON
 ==/UserStyle== */
@@ -562,5 +562,13 @@
     }
     .navtabs .popupbody li {
         border-top: 1px solid var(--black-bg-color);
+    }
+    h2.searchlisthead {
+        border: 1px solid var(--border);
+        background: var(--black-bg-color) url(images/buttons/newbtn_middle.png) repeat-x;
+        color: var(--color-font);
+        -moz-box-shadow: -2px 2px 2px var(--border);
+        -webkit-box-shadow: -2px 2px 2px var(--border);
+        box-shadow: -2px 2px 2px var(--border);
     }
 }
