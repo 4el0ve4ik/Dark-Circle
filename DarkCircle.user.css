@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Circle
 @namespace      https://github.com/4el0ve4ik/Dark-Circle
-@version        1.2.6
+@version        1.2.7
 @description    Dark style for forum.wowcircle.com
 @author         4310V341K aka FYPSON
 ==/UserStyle== */
@@ -570,5 +570,15 @@
         -moz-box-shadow: -2px 2px 2px var(--border);
         -webkit-box-shadow: -2px 2px 2px var(--border);
         box-shadow: -2px 2px 2px var(--border);
+    }
+    .postbitlegacy .postfoot .textcontrols a,
+    .postbit .postfoot .textcontrols a,
+    .eventbit .eventfoot .eventcontrols a,
+    .postbitlegacy .postfoot .textcontrols span.mobile,
+    .postbit .postfoot .textcontrols span.mobile {
+        border: 0px solid var(--border);
+        ;
+        background: var(--main-bg-color);
+        color: var(--color-font);
     }
 }
