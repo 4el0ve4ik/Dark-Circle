@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Circle
 @namespace      https://github.com/4el0ve4ik/Dark-Circle
-@version        1.2.4
+@version        1.2.5
 @description    Dark style for forum.wowcircle.com
 @author         4310V341K aka FYPSON
 ==/UserStyle== */
@@ -539,5 +539,28 @@
     .navtabs li.selected a.navtab {
         color: #000000;
         background: var(--main-bg-color) url(images/gradients/selected-tab-gradient-with-top-alpha.png) repeat-x;
+    }
+    *::-webkit-scrollbar {
+        width: 15px !important;
+        height: 10px !important;
+        background: var(--main-bg-color) !important;
+        border: 1px solid var(--main-bg-color) !important;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        min-height: 28px !important;
+        background: var(--black-bg-color) !important;
+    }
+    .navtabs .popupbody {
+        border: 1px solid #181a19;
+        background: var(--main-bg-color);
+    }
+    .popupbody li a,
+    .popupbody li label {
+        color: var(--color-font);
+        background: var(--black-bg-color) none;
+    }
+    .navtabs .popupbody li {
+        border-top: 1px solid var(--black-bg-color);
     }
 }
