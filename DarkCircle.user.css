@@ -578,7 +578,7 @@
     .postbit .postfoot .textcontrols span.mobile {
         border: 0px solid var(--border);
         ;
-        background: var(--main-bg-color);
+        background: var(--black-bg-color);
         color: var(--color-font);
     }
 }
