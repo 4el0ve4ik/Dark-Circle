@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Circle
 @namespace      https://github.com/4el0ve4ik/Dark-Circle
-@version        1.2.7
+@version        1.2.8
 @description    Dark style for forum.wowcircle.com
 @author         4310V341K aka FYPSON
 ==/UserStyle== */
@@ -185,7 +185,7 @@
     .button {
         border: 1px solid var(--border);
         color: #e9e9e9;
-        background: var(--black-bg-color) url(images/gradients/generic_button.png) repeat-x top left;
+        background: var(--black-bg-color);
     }
 
     .navpopupmenu.popupmenu.nohovermenu a.textcontrol,
@@ -319,7 +319,7 @@
     .actionbuttons .group .button {
         border: 1px solid var(--border);
         color: var(--color-font);
-        background: var(--black-bg-color) url(images/gradients/generic_button.png);
+        background: var(--black-bg-color);
     }
     .blocksubhead {
         color: var(--color-font);
@@ -393,6 +393,7 @@
         color: var(--color-font);
         background-color: var(--black-bg-color);
         border-color: var(--border);
+        background-image:url(http://s);
     }
 
     .cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_ok,
@@ -406,15 +407,24 @@
 
     .activitystream_block dd,
     dd.userprof_moduleinactive {
-        color: #a1ad92;
-        background-color: var(--main-bg-color);
-        border-color: var(--border);
-    }
-    .activitystream_block dd.selected,
-    dd.userprof_module {
-        color: #ffffff;
+        color: var(--color-font);
         background-color: var(--black-bg-color);
         border-color: var(--border);
+        background-image:url(http://s);
+        border-bottom:var(--border);
+    }
+    dl.tabslight dd.userprof_moduleinactive a {
+    color: var(--color-font);
+    }
+    dl.as-tabs dd a {
+    color:  var(--color-font);
+}
+    .activitystream_block dd.selected,
+    dd.userprof_module {
+        color: var(--color-font);
+        background-color: var(--black-bg-color);
+        border-color: var(--border);
+        
     }
     #usercp_nav li a.usercp_folder-left {
         background: var(--main-bg-color) url(images/cms/sections.png);
@@ -502,7 +512,7 @@
     input[type="file" i]::-webkit-file-upload-button,
     button {
         color: var(--color-font);
-        background-color: var(--black-bg-color);
+        background-color: var(--black-bg-color) ;
         border-color: var(--border);
     }
     .navbar a {
@@ -552,7 +562,7 @@
         background: var(--black-bg-color) !important;
     }
     .navtabs .popupbody {
-        border: 1px solid #181a19;
+        border: 1px solid var(--black-bg-color);
         background: var(--main-bg-color);
     }
     .popupbody li a,
@@ -580,5 +590,32 @@
         ;
         background: var(--black-bg-color);
         color: var(--color-font);
+    }
+    .spoiler > h2 {
+    background: var(--black-bg-color) url(images/misc/icon_plus.png) no-repeat left center;
+    }
+    .spoiler {
+    background: var(--black-bg-color) none;
+    }
+    .postbitlegacy .postfoot .textcontrols a.newreply, .postbit .postfoot .textcontrols a.newreply {
+    background: url(images/buttons/quote_40b.png) no-repeat var(--black-bg-color) left;
+    }
+    .above_postlist .pagination_top .pagination, .above_postlist .pagination_top .postpagestats {
+    color: var(--color-font);
+    }
+    .postbitlegacy .postfoot .textcontrols a.quickreply, .postbit .postfoot .textcontrols a.quickreply, .postbitlegacy .postfoot .textcontrols a.forwardpost, .postbit .postfoot .textcontrols a.forwardpost {
+    background: url(images/buttons/reply_40b.png) no-repeat var(--black-bg-color) left;
+    }
+    .postbitlegacy .postfoot .textcontrols a.multiquote, .postbit .postfoot .textcontrols a.multiquote {
+    background: url(images/buttons/multiquote-back_40b.png) no-repeat var(--black-bg-color) left;
+    }
+    .postbitlegacy .postfoot .textcontrols a.infraction, .postbit .postfoot .textcontrols a.infraction {
+    background: url(images/buttons/add-infraction_sm.png) no-repeat var(--black-bg-color) left;
+    }
+    .announcements .announcerow {
+    background: var(--main-bg-color) none;
+    }
+    .announcerow .announceinfo, .announcerow .announcement {
+    background: var(--main-bg-color) none;
     }
 }
