@@ -692,4 +692,7 @@
         background: var(--black-bg-color) url(images/buttons/newbtn_middle.png) repeat-x;
         color: var(--color-font);
     }
+    .postbitlegacy .postfoot .textcontrols a.editpost, .postbit .postfoot .textcontrols a.editpost, .eventbit .eventfoot .textcontrols a.editevent {
+    background: url(images/buttons/edit_40b.png) no-repeat var(--black-bg-color) left;
+    }
 }
