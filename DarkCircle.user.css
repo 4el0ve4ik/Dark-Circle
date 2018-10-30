@@ -706,4 +706,18 @@
     #forums a.username {
         color: #fff;
     }
+    .member_content a,
+    .member_content a:hover {
+        color: #fff;
+    }
+    li.activitybit a {
+        color: #fff;
+    }
+    #sidebar_container .userprof_content a,
+    #sidebar_container .userprof_content a:hover {
+        color: #fff;
+    }
+    #sidebar_container.member_summary .textcontrol {
+        color: #fff;
+    }
 }
