@@ -804,4 +804,20 @@
     #sidebar_container .block {
         padding: 0px;
     }
+    .albumlist_entry {
+        float: left;
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 0 15px 10px 15px;
+        text-align: left;
+        display: block;
+        width: 500px;
+        height: 564.04px;
+        overflow: hidden;
+        border: 1px solid var(--border);
+        background: var(--main-bg-color) none;
+        -moz-box-shadow: -2px 2px 2px var(--border);
+        -webkit-box-shadow: -2px 2px 2px var(--border);
+        box-shadow: -2px 2px 2px var(--border);
+    }
 }
