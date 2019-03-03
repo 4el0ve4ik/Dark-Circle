@@ -113,6 +113,7 @@
     .pagination span a {
         background: var(--main-bg-color);
         border: 1px solid var(--border);
+        color: var(--color-font);
     }
 
     .threadbit .sticky {
@@ -805,25 +806,85 @@
         padding: 0px;
     }
     .albumlist_entry {
-        float: left;
-        margin-left: 25px;
-        margin-top: 20px;
-        padding: 0 15px 10px 15px;
-        text-align: left;
-        display: block;
-        width: 500px;
-        height: 564.04px;
-        overflow: hidden;
+
         border: 1px solid var(--border);
         background: var(--main-bg-color) none;
         -moz-box-shadow: -2px 2px 2px var(--border);
         -webkit-box-shadow: -2px 2px 2px var(--border);
         box-shadow: -2px 2px 2px var(--border);
     }
-    .postbitlegacy .postfoot .textcontrols a.redcard, .postbit .postfoot .textcontrols a.redcard {
-    background: url(images/buttons/red-card_sm.png) no-repeat var(--black-bg-color) left;
+    .postbitlegacy .postfoot .textcontrols a.redcard,
+    .postbit .postfoot .textcontrols a.redcard {
+        background: url(images/buttons/red-card_sm.png) no-repeat var(--black-bg-color) left;
 
-    border: var(--border);
-}
-    #header img{content:url("https://i.imgur.com/TFAfdOC.png")}
+        border: var(--border);
+    }
+    #header img {
+        content: url("https://i.imgur.com/TFAfdOC.png")
+    }
+
+    blockquote.preview .bbcode_container div.bbcode_quote {
+        background: var(--black-bg-color) none;
+        border: 1px solid var(--border);
+    }
+
+    .newcontent_textcontrol {
+        background: var(--main-bg-color) url(images/buttons/newbtn_middle.png) repeat-x left top;
+    }
+
+    .postbitlegacy .postfoot .textcontrols a.reputation,
+    .postbit .postfoot .textcontrols a.reputation {
+        background: url(images/buttons/reputation-40b.png) no-repeat var(--black-bg-color) left;
+        border: 0px solid var(--border);
+    }
+    .postbitlegacy .postfoot .textcontrols a.ip,
+    .postbit .postfoot .textcontrols a.ip {
+        background: url(images/buttons/ip-40b.png) no-repeat var(--black-bg-color) left;
+        border: 0px solid var(--border);
+    }
+    .postbitdeleted .userinfo,
+    .postbitignored .userinfo {
+        background: var(--black-bg-color);
+        border-bottom: 1px solid var(--border);
+    }
+    .postbitdeleted .nodecontrols,
+    .postbitignored .nodecontrols {
+        background: var(--black-bg-color) none;
+    }
+    .pagination span.selected a {
+        background: var(--main-bg-color) url(images/buttons/newbtn_middle.png) repeat-x;
+        color: var(--color-font);
+        border: 1px solid var(--border);
+        height: 15.99px;
+        font-weight: bold;
+        padding: 2px 4px;
+        margin-left: 1px;
+    }
+    a.firstunread {
+        background: url("https://i.imgur.com/OaH3PK3.png") right center no-repeat;
+    }
+
+    .navtabs ul {
+        border-top: 1px solid var(--border)
+    }
+    .navtabs li:first-child {
+        border-left: 1px solid var(--border)
+    }
+    .navtabs li {
+        border-right: 1px solid var(--border)
+    }
+    .globalsearch .textboxcontainer {
+        border-left: 1px solid var(--border)
+    }
+    .globalsearch .textboxcontainer span {
+        border-top: 1px solid var(--border);
+        border-left: 1px solid var(--border)
+    }
+    .navbar_search input {
+        border: 1px solid var(--border)
+    }
+    .globalsearch .buttoncontainer {
+        border-left: 1px solid var(--border);
+        border-right: 1px solid var(--border);
+    }
 }
