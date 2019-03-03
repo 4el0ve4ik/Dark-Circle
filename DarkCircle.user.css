@@ -820,4 +820,10 @@
         -webkit-box-shadow: -2px 2px 2px var(--border);
         box-shadow: -2px 2px 2px var(--border);
     }
+    .postbitlegacy .postfoot .textcontrols a.redcard, .postbit .postfoot .textcontrols a.redcard {
+    background: url(images/buttons/red-card_sm.png) no-repeat var(--black-bg-color) left;
+
+    border: var(--border);
+}
+    #header img{content:url("https://i.imgur.com/TFAfdOC.png")}
 }
