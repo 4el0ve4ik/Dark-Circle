@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Circle
 @namespace      https://github.com/4el0ve4ik/Dark-Circle
-@version        1.3.2
+@version        1.3.3
 @description    Dark style for forum.wowcircle.com
 @author         4310V341K aka FYPSON
 ==/UserStyle== */
@@ -177,6 +177,7 @@
     }
     .footer {
         background: var(--black-bg-color) none;
+        border: 1px solid var(--border);
     }
 
     .footer a {
@@ -886,5 +887,22 @@
     .globalsearch .buttoncontainer {
         border-left: 1px solid var(--border);
         border-right: 1px solid var(--border);
+    }
+    .textbox,
+    textarea,
+    select {
+        border: 1px solid var(--border);
+    }
+    .postbit .postdate .time {
+        color: var(--color-font);
+    }
+    .postbit .postbody {
+        color: var(--color-font);
+        background: var(--black-bg-color) none;
+    }
+    .postbit .userinfo,
+    .postbit .userinfo_noavatar {
+        background: var(--main-bg-color) none;
+        border-bottom: 1px solid var(--border);
     }
 }
