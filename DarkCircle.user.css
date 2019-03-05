@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark Circle
 @namespace      https://github.com/4el0ve4ik/Dark-Circle
-@version        1.3.3
+@version        1.3.4
 @description    Dark style for forum.wowcircle.com
 @author         4310V341K aka FYPSON
 ==/UserStyle== */
@@ -904,5 +904,40 @@
     .postbit .userinfo_noavatar {
         background: var(--main-bg-color) none;
         border-bottom: 1px solid var(--border);
+    }
+    li.userprof_content a {
+        color: #fff;
+    }
+    .pagination span a,
+    .pagination span a.popupctrl {
+        color: var(--color-font);
+        background-color: var(--main-bg-color);
+        border-color: var(--border);
+    }
+    #sidebar_container a {
+        color: #fff;
+    }
+    .config_customize_header {
+        background-color: var(--black-bg-color);
+    }
+    .lightgraybackground {
+        background: -moz-linear-gradient(from(#fff), #ccc);
+        background: -webkit-gradient( linear, 0 0, 0 100%, from(var(--main-bg-color)), to(var(--black-bg-color)));
+    }
+    .config_customize_page .blockrow {
+        background-color: -webkit-gradient( linear, 0 0, 0 100%, from(var(--black-bg-color)), to(var(--main-bg-color)));
+        ;
+    }
+    .userprof_celltitle {
+        color: var(--color-font);
+    }
+    .blockbody.settings_form_border {
+        border-right: 1px solid var(--border);
+        border-left: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+    }
+    .blocksubhead a {
+        color: #fff;
+        text-decoration: none;
     }
 }
