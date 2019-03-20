@@ -960,4 +960,7 @@
     .pagination span.first_last a img {
         content: url(https://i.imgur.com/sum0WOX.png);
     }
+    .postbitlegacy .imlinks a[onclick*="imwindow('skype', '4119', 500, 340); return false;"] img {
+        content: url(images/misc/im_skype.gif);
+    }
 }
