@@ -963,4 +963,8 @@
     a[onclick*="imwindow('skype',"] img {
         content: url(images/misc/im_skype.gif);
     }
+    
+    .faqlinks {
+    background: var(--bg-main-color) none repeat-x center bottom;
+    }
 }
